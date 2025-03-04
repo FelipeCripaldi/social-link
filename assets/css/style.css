@@ -1,0 +1,83 @@
+body {
+  background-color: black;
+  color: white;
+  font-family: "Quicksand", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin-top: 15px;
+}
+
+h2 {
+  font-size: 15px;
+  color: darkgoldenrod;
+}
+
+hr {
+  width: 80%;
+  margin-bottom: 20px;
+}
+
+.navegacao {
+  background-color: #1f1f1f;
+  margin-top: 250px;
+  display: flex;
+  flex-direction: column;
+  height: 100Vhq;
+  width: 450px;
+  margin: 0 auto;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  border-radius: 25px;
+}
+
+.avatar img {
+  width: 250px;
+  height: 250px;
+}
+
+.info {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+  gap: 20px;
+}
+
+.redes {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  flex-wrap: wrap;
+}
+
+.btn-redes {
+  display: flex;
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  width: 250px;
+  height: 40px;
+  border-radius: 25px;
+  border: solid 1px;
+  border-color: darkgoldenrod;
+  box-shadow: 0 0 40px 40px darkgoldenrod inset, 0 0 0 0 darkgoldenrod;
+  transition: all 150ms ease-in-out;
+}
+
+.btn-redes:hover {
+  box-shadow: 0 0 10px 0 darkgoldenrod inset; 0 0 10px 8px darkgoldenrod;
+  font-weight: 700;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
